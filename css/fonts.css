@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'trebuchet_ms_bold';
+    src: url('fonts/Trebuchet MS Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'trebuchet_ms_regular';
+    src: url('fonts/Trebuchet MS.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

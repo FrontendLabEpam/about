@@ -1,0 +1,312 @@
+body {
+  font: 16px/1.5 "trebuchet_ms_regular";
+}
+
+/*================ 320 > ====================*/
+@media screen and (min-width:320px) {
+  .wrapper {
+    background: url(../img/pattern_mobile.png) repeat-y right bottom;
+  }
+  .wrapper .logotext {
+    font: 16px/1.4 "trebuchet_ms_regular";
+    text-transform: uppercase;
+    color: rgb(57, 194, 215);
+  }
+  .wrapper .mainheader {
+    height: 490px;
+  }
+  .wrapper .logo {
+    height: 58px;
+    margin-left: 20px;
+    background: white;
+  }
+  .wrapper .divider {
+    border-right: 1px solid rgba(57, 194, 215, .5);
+    padding: 0 15px;
+    height: 32px;
+    float: left;
+    margin-top: 13px;
+  }
+  .wrapper .divider img {
+    width: 110px;
+  }
+  .wrapper .logo span {
+    padding-left: 15px;
+    color: rgb(57, 194, 215);
+    line-height: 58px;
+  }
+  .wrapper .registration {
+    background: url(../img/lab4_mob.png) no-repeat;
+    background-size: 100%;
+    min-height: 430px;
+    min-width: 320px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .wrapper h2 {
+    font-size: 1.375em;
+    font-family: "trebuchet_ms_bold";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 215px;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    -webkit-transform: translate(-50%, -35%);
+    transform: translate(-50%, -35%);
+    z-index: 999;
+  }
+  #sign-up {
+    background-color: rgb(127, 153, 58);
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    -webkit-transform: translate(-50%, -60%);
+    transform: translate(-50%, -60%);
+    width: 220px;
+    height: 45px;
+    z-index: 999;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border: none;
+  }
+  .wrapper .content {
+    width: 280px;
+    margin: 50px auto;
+  }
+  .wrapper .content span {
+    font-size: 0.875em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 194, 215);
+    padding: 3px 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+  .wrapper .rightcol span {
+    font-size: 0.8125em;
+  }
+  .wrapper .rightcol p {
+    font-size: 0.875em;
+    color: rgb(70, 69, 71);
+    padding: 20px;
+  }
+  .wrapper .list {
+    list-style: none;
+    margin-top: 10px;
+    overflow: hidden;
+    counter-reset: numList;
+    position: relative;
+  }
+  .wrapper .list li {
+    padding-left: 25px;
+    line-height: 30px;
+  }
+  .wrapper .list li:before {
+    counter-increment: numList;
+    content: counter(numList);
+    position: absolute;
+    left: 0;
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    background: rgb(57, 194, 215);
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    line-height: 18px;
+  }
+  .wrapper .info {
+    margin-bottom: 10px;
+  }
+  .wrapper .requirements {
+    font-size: 0.875em; 
+    margin: 20px 0 0 20px;
+    list-style: none;
+  }
+  .wrapper .requirements li {
+    padding-bottom: 15px;
+  }
+  .wrapper article {
+    margin-bottom: 35px;
+  }
+  .wrapper .footer {
+    border-top: 1px solid rgb(204, 204, 204);
+    clear: both;
+    padding: 20px;
+    font-size: 0.75em;
+    text-transform: capitalize;
+    color: rgb(153, 153, 153);
+  }
+}
+
+/*================ 420 > ====================*/
+@media  screen and (min-width:420px) {
+  .wrapper {
+    background: url(../img/pattern_tab.png) repeat-y right bottom;
+    background-size: 50% 50%;
+  }
+  .wrapper .content {
+    width: 400px;
+  }
+  .wrapper .mainheader {
+    height: 310px;
+  }
+  .wrapper .registration {
+    background: url(../img/lab4_tab.png) no-repeat;
+    background-size: 100% 100%;
+    min-height: 250px;
+    min-width: 400px;
+  }
+  .wrapper .registration h2 {
+    width: 100%;
+  }
+  .wrapper .content {
+    width: 80%;
+    height: 100%;
+    margin: 30px auto;
+  }
+}
+
+/*================ 660 > ====================*/
+@media  screen and (min-width:660px) {
+  .wrapper {
+     background-size: 70%;
+  }
+  .wrapper .mainheader {
+    min-height: 250px;
+  }
+  .wrapper .logo {
+    height: 56px;
+  }
+  .wrapper .registration {
+    background: url(../img/lab4_tab.png) no-repeat;
+    background-size: 100%;
+    min-height: 250px;
+    position: relative;
+  }
+  .wrapper .requirebloc {
+    padding-top: 50px;
+    width: 600px;
+  }
+  .wrapper .content {
+    min-width: 600px;
+    height: 550px;
+  }
+  .wrapper .leftcol {
+    width: 55%;
+    float: left;
+  }
+  .wrapper .rightcol {
+    width: 45%;
+    float: right;
+  }
+}
+
+/*================ 1024 > ====================*/
+@media screen and (min-width:1024px) {
+  .wrapper {
+    background: url(../img/pattern.png) no-repeat  right bottom;
+    background-size: 60% 70%;
+  }
+  .wrapper .registration {
+    height: 500px;
+    background: url(../img/lab4.png) no-repeat;
+  }
+  .wrapper .mainheader {
+    height: 100%;
+  }
+  .wrapper .content {
+    min-width: 880px;
+  }
+  .wrapper h2 {
+    font-size: 2.25em;
+    top: 40%;
+  }
+  .wrapper .divider {
+    padding: 0 20px;
+  }
+  #sign-up {
+    width: 400px;
+    height: 70px;
+    top: 65%;
+    left: 51%;
+    font-size: 1.5em;
+    font-family: "trebuchet_ms_regular";
+  }
+  .wrapper .rightcol {
+    width: 40%;
+  }
+  .wrapper .leftcol span {
+    font-size: 1.25em;
+    padding: 2px 17px;
+  }
+  .wrapper .rightcol span {
+    font-size: 1.125em;
+    padding: 2px 17px;
+  }
+  .wrapper .footer {
+    font-size: 1.125em;
+    padding-left: 50px;
+  }
+  .wrapper .info {
+    margin-bottom: 50px;
+  }
+}
+
+/*================ 1366 > ====================*/
+@media screen and (min-width:1366px) {
+  .wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    background-size: 50% 62%;
+  }
+  .wrapper .registration {
+    margin: 0 auto;
+    height: 450px;
+    background-size: 100%;
+  }
+  .wrapper .mainheader {
+    height: 518px;
+  }
+  .wrapper .logo {
+    margin-left: 50px;
+  }
+  .wrapper .content {
+    min-width: 1024px;
+    height: 700px;
+    padding-top: 85px;
+    margin: 0 auto;
+  }
+  .wrapper .leftcol {
+    width: 730px;
+  }
+  .wrapper .rightcol {
+    width: 320px;
+  }
+  .wrapper .requirebloc {
+    clear: both;
+    width: auto;
+  }
+  .wrapper .content span {
+    font-size: 1.4375em;
+    padding: 2px 17px;
+  }
+  .wrapper .rightcol span {
+    font-size: 1em;
+    padding: 5px 18px;
+  }
+  .wrapper .rightcol p {
+    font-size: 0.875em;
+  }
+  .wrapper .list li {
+    padding-bottom: 5px;
+  }
+  .wrapper .list li, .wrapper .requirements li {
+    font-size: 1.125em;
+  }
+}
